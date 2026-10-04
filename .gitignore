@@ -1,1 +1,4 @@
 INTERVIEW_PREPARATION.md
+credentials.json
+token.pickle
+*.pickle

@@ -1,0 +1,107 @@
+{
+  "questions": {
+    "q1": {
+      "id": "q1",
+      "text": "Mujhe aapse directly sunna accha lagega—subscription cancel karne ka main reason kya tha?",
+      "section": null,
+      "pathway": null,
+      "follow_ups": [],
+      "conditions": {
+        "cost": "q2a",
+        "content": "q2b",
+        "lack of use": "q2c",
+        "vague": "q1a",
+        "technical": "q2d"
+      },
+      "is_first": true
+    },
+    "q1a": {
+      "id": "q1a",
+      "text": "Thoda aur detail mein bata sakte hain? Kya koi specific cheez thi jo aapki expectations par khari nahi utri?",
+      "section": null,
+      "pathway": "clarification",
+      "follow_ups": [],
+      "conditions": null
+    },
+    "q2a": {
+      "id": "q2a",
+      "text": "Aapne cost ka mention kiya. Kya problem price se thi, ya aapko laga ki jo value mil rahi thi, woh paise ke worth nahi thi?",
+      "section": null,
+      "pathway": "pricing",
+      "follow_ups": [
+        "Agar price zyada laga: GyanTV jaise bite-sized learning platform ke liye aapko kaunsa price zyada reasonable lagega?",
+        "Agar value kam lagi: Aisa kya change hona chahiye jisse aapko lage ki subscription worth it hai?"
+      ],
+      "conditions": null
+    },
+    "q2b": {
+      "id": "q2b",
+      "text": "Aapne content ka mention kiya. Kya courses aapke goals se relevant nahi the, ya quality aapki expectations jaisi nahi thi?",
+      "section": null,
+      "pathway": "content",
+      "follow_ups": [
+        "Agar content relevant nahi tha: Aap kaunse topics ya skills seekhna chahte the jo aapko GyanTV par nahi mile?",
+        "Agar quality ka issue: Courses ke padhane ya structure mein hum kya better kar sakte hain?"
+      ],
+      "conditions": null
+    },
+    "q2c": {
+      "id": "q2c",
+      "text": "Lagta hai app utna use nahi ho pa raha tha jitna aapne socha tha. Regular use karne se kya cheez ne roka?",
+      "section": null,
+      "pathway": "lack_of_use",
+      "follow_ups": [
+        "Kya time nahi mil paata tha?",
+        "Ya app itni engaging nahi lagi ki baar-baar wapas aayein?",
+        "Kya course format aapke liye sahi nahi tha (jaise too short, too long, video vs text)?"
+      ],
+      "conditions": null
+    },
+    "q2d": {
+      "id": "q2d",
+      "text": "Aapne technical issue ka mention kiya. Thoda bata sakte hain kya problem aayi? Kya aapne support se contact kiya tha?",
+      "section": null,
+      "pathway": "technical",
+      "follow_ups": [
+        "Agar aapne contact kiya, toh support ka experience kaisa raha?"
+      ],
+      "conditions": null
+    },
+    "q3": {
+      "id": "q3",
+      "text": "Cancel karne se pehle, kya aapne koi aur learning app try ki, ya aap kisi aur platform par shift karne ka plan bana rahe hain?",
+      "section": null,
+      "pathway": null,
+      "follow_ups": [],
+      "conditions": null
+    },
+    "q4": {
+      "id": "q4",
+      "text": "Kya future mein aisa kuch hai jo hum kar sakte hain jisse aap wapas GyanTV par aane ka sochen, ya aapne decide kar liya hai ki yeh aapke liye right fit nahi hai?",
+      "section": null,
+      "pathway": null,
+      "follow_ups": [],
+      "conditions": null
+    }
+  },
+  "pathways": {
+    "pricing": [
+      "q2a"
+    ],
+    "content": [
+      "q2b"
+    ],
+    "lack_of_use": [
+      "q2c"
+    ],
+    "technical": [
+      "q2d"
+    ],
+    "clarification": [
+      "q1a"
+    ]
+  },
+  "opening": "Hello [User First Name], main GyanTV se baat kar raha/rahi hoon. Humne notice kiya ki aapne recently apni subscription cancel ki hai, aur hum genuinely samajhna chahte hain ki aisa kyun hua. Aapka feedback humein app ko sabke liye better banane mein madad karega. Kya aap mere saath 2 se 3 minute baat kar sakte hain? Isse humein ek better learning experience build karne mein help milegi.",
+  "closing": "Dil se thank you, itni honestly baat karne ke liye. Aapka feedback hamare liye bahut valuable hai aur humein GyanTV ko better banane mein madad karega. Humein umeed hai ki future mein aapko phir se welcome kar paayenge. Take care!",
+  "sections": {}
+}

@@ -1,0 +1,24 @@
+{
+  "questionnaire_name": "Continuous User Connect   Questionnaire",
+  "event_name": "gyantv_survey",
+  "original_filename": "Continuous User Connect - Questionnaire.pdf",
+  "original_file_path": "questionnaires/gyantv_survey/original_20260116_052503.pdf",
+  "file_type": "application/pdf",
+  "source_language": "en",
+  "supported_languages": [
+    "en",
+    "hi"
+  ],
+  "translations": {
+    "en": {
+      "filename": "en.txt",
+      "path": "questionnaires/gyantv_survey/en.txt"
+    },
+    "hi": {
+      "filename": "hi.txt",
+      "path": "questionnaires/gyantv_survey/hi.txt"
+    }
+  },
+  "created_at": "20260116_052503",
+  "event_folder": "questionnaires/gyantv_survey"
+}

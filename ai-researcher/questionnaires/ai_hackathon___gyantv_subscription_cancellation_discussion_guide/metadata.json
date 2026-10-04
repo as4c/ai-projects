@@ -1,0 +1,24 @@
+{
+  "questionnaire_name": "Ai Hackathon   Gyantv Subscription Cancellation Discussion Guide",
+  "event_name": "ai_hackathon___gyantv_subscription_cancellation_discussion_guide",
+  "original_filename": "AI Hackathon - GyanTV Subscription Cancellation Discussion Guide.pdf",
+  "original_file_path": "questionnaires/ai_hackathon___gyantv_subscription_cancellation_discussion_guide/original_20260116_074002.pdf",
+  "file_type": "application/pdf",
+  "source_language": "en",
+  "supported_languages": [
+    "en",
+    "hi"
+  ],
+  "translations": {
+    "en": {
+      "filename": "en.txt",
+      "path": "questionnaires/ai_hackathon___gyantv_subscription_cancellation_discussion_guide/en.txt"
+    },
+    "hi": {
+      "filename": "hi.txt",
+      "path": "questionnaires/ai_hackathon___gyantv_subscription_cancellation_discussion_guide/hi.txt"
+    }
+  },
+  "created_at": "20260116_074002",
+  "event_folder": "questionnaires/ai_hackathon___gyantv_subscription_cancellation_discussion_guide"
+}
