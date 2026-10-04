@@ -1,0 +1,5 @@
+# Avatars API (Django) — keep separate from voice_agent/requirements.txt
+Django>=4.2,<5.1
+djangorestframework>=3.14
+django-cors-headers>=4.3
+django-environ>=0.11

@@ -1,0 +1,5 @@
+# Voice agent (Pipecat WebRTC) — keep separate from the Avatars API image.
+pipecat-ai[silero,deepgram,openrouter,cartesia,webrtc]
+aiohttp
+httpx
+python-dotenv
